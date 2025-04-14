@@ -1,10 +1,12 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRobot } from "@fortawesome/free-solid-svg-icons";
 
 function WelcomeSection() {
   return (
     <div className="bg-white rounded-md shadow-md p-6 flex items-center mb-6">
       <div className="w-16 h-16 rounded-full overflow-hidden bg-blue-500 text-white flex items-center justify-center text-2xl mr-4">
-        <h1>Bot</h1>
+        <FontAwesomeIcon icon={faRobot} size="lg" />
       </div>
       <div>
         <h1 className="text-2xl font-semibold text-gray-800 mb-2">
